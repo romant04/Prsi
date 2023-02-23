@@ -1,0 +1,12 @@
+@import "./variables";
+
+body{
+    overflow: hidden;
+}
+main{
+    @include flex-center;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+    margin-top: 7vh;
+}

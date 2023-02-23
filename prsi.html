@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prší</title>
+    <link rel="stylesheet" href="./styles/plain_css/cardOverlap.css">
+    <link rel="stylesheet" href="./styles/plain_css/global.css">
+    <link rel="stylesheet" href="./styles/plain_css/main.css">
+    <script src="./scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><h1 class="nav_title">Originál prší</h1></a>
+            <ul>
+                <li><a href="controls.html">Ovládání</a></li>
+                <li><a href="rules.html">Pravidla</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="choose_color" class="choose_color">
+        <div id="chooser" class="img-box">
+            <img src="images/CLUBS.png" alt="clubs">
+            <img src="images/DIAMONDS.png" alt="diamonds">
+            <img src="images/SPADES.png" alt="spades">
+            <img src="images/HEARTS.png" alt="hearts">
+        </div>
+    </div>
+
+    <div class="container">
+    <main>
+        <div id="ai" class="player ai">
+        </div>
+
+        <div class="center_board">
+            <div id="coin" class="coin"></div>
+            <div id="center" class="center_card"></div>
+            <div class="draw_pile">
+                <img id="draw" src="./images/card_back.png" alt="card-back">
+            </div>
+        </div>
+
+        <div id="human" class="player human"></div>
+    </main>
+    </div>
+
+</body>
+
+</html>
